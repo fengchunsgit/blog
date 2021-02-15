@@ -7,4 +7,4 @@ categories:
 - git
 ---
 # git常用命令
-![git速查表](https://raw.githubusercontent.com/fengchunsgit/blog/master/images/git.png)
+![git速查表](git.png)
