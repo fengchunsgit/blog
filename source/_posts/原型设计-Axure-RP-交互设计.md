@@ -78,7 +78,7 @@ table th:nth-of-type(2) {
 |尺寸改变时事件|调整元件大小时发生|
 
 ## 3 用例和动作
-
+> 事件是通过不同的用例和动作对外界输入做出的一种反映。事件包含一个或多个用例。通过判断各自的条件来执行具体的动作，不同的用例不会同时发生。
 ## 4 变量
 >在 Axure RP 8 中变量被用于实现多种交互效果。从 Axure RP 6 版本开始，就增加了全局变量的功能，因此，Axure RP 8有两种变量：全局变量和局部变量。
 
@@ -346,3 +346,10 @@ table th:nth-of-type(2) {
 |isOdd|判断数据行是否为奇数行；如果是奇数行，返回值为“True”，否则为“False”。|
 |isMarked|判断数据行是否为被标记；如果被标记，返回值为“True”，否则为“False”。|
 |isVisible|判断数据行是否为可见行；如果是可见行，返回值为“True”，否则为“False”。|
+
+### 实例-实现数字时钟逻辑
+
+- case 1 seconds 不等于59时，seconds+1
+- case 2 else if seconds=59，minutes=59，hours=23 时，seconds，minutes，hours置零
+- case 3 else if seconds=59，minutes=59，hours+1
+- case 4 else if seconds=59，minutes+1
